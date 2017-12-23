@@ -1,7 +1,7 @@
 <?php
-define("DB_HOST", "fdb14.biz.nf");
-define("DB_USER", "2104393_bj");          
-define("DB_PASSWORD", "Bobby1993#");      
-define("DB_DATABASE", "2104393_bj");  
+define("DB_HOST", "f14.biz.nf");
+define("DB_USER", "");          
+define("DB_PASSWORD", "");      
+define("DB_DATABASE", "");  
 $base_url='http://www.bjprogrammer.co.nf/nigeriantraffic/';
 ?>
