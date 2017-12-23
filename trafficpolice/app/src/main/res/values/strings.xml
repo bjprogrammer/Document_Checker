@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Document Checker(Partner)</string>
+    <string name="title_activity_signin">Signin</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_updateprofile">Update Profile</string>
+    <string name="nav_item_logout">Logout</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_updateprofile</item>
+        <item>@string/nav_item_logout</item>
+    </string-array>
+</resources>

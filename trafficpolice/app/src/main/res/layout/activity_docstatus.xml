@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bobby.trafficpolice.docstatus">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:background="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Document Status"
+                android:id="@+id/textView12"
+                android:textSize="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:textColor="#1369d2"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Driving License"
+                android:id="@+id/textView14"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="10dp"
+                android:textSize="14dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#f4c015"
+                android:layout_below="@+id/textView12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload"
+                android:id="@+id/textView15"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="10dp"
+                android:textSize="14dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#f31010"
+                android:clickable="true"
+                android:layout_below="@+id/textView12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tyre Expiration"
+                android:id="@+id/textView50"
+                android:layout_below="@+id/textView14"
+                android:layout_alignLeft="@+id/textView14"
+                android:layout_alignStart="@+id/textView14"
+                android:layout_marginBottom="10dp"
+                android:textSize="14dp"
+                android:textColor="#f4c015" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload"
+                android:id="@+id/textView59"
+                android:layout_below="@+id/textView15"
+                android:layout_alignLeft="@+id/textView15"
+                android:layout_alignStart="@+id/textView15"
+                android:layout_marginBottom="10dp"
+                android:textSize="14dp"
+                android:textColor="#f31010"
+                android:clickable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fire Extinguisher"
+                android:id="@+id/textView60"
+                android:layout_below="@+id/textView50"
+                android:layout_alignLeft="@+id/textView50"
+                android:layout_alignStart="@+id/textView50"
+                android:textSize="14dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#f4c015" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload"
+                android:id="@+id/textView61"
+                android:layout_below="@+id/textView59"
+                android:layout_alignLeft="@+id/textView59"
+                android:layout_alignStart="@+id/textView59"
+                android:layout_marginBottom="10dp"
+                android:textSize="14dp"
+                android:textColor="#f31010"
+                android:clickable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VIO Document"
+                android:id="@+id/textView62"
+                android:layout_below="@+id/textView60"
+                android:layout_alignLeft="@+id/textView60"
+                android:layout_alignStart="@+id/textView60"
+                android:textSize="14dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#f4c015" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload"
+                android:id="@+id/textView63"
+                android:layout_alignTop="@+id/textView62"
+                android:layout_alignLeft="@+id/textView61"
+                android:layout_alignStart="@+id/textView61"
+                android:layout_marginBottom="10dp"
+                android:textSize="14dp"
+                android:textColor="#f31010"
+                android:clickable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Insurance"
+                android:id="@+id/textView64"
+                android:layout_below="@+id/textView62"
+                android:layout_alignLeft="@+id/textView62"
+                android:layout_alignStart="@+id/textView62"
+                android:textSize="14dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#f4c015" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload"
+                android:id="@+id/textView65"
+                android:layout_below="@+id/textView63"
+                android:layout_alignLeft="@+id/textView63"
+                android:layout_alignStart="@+id/textView63"
+                android:layout_marginBottom="10dp"
+                android:textSize="14dp"
+                android:textColor="#f31010"
+                android:clickable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hackney Permit"
+                android:id="@+id/textView66"
+                android:layout_below="@+id/textView64"
+                android:layout_alignLeft="@+id/textView64"
+                android:layout_alignStart="@+id/textView64"
+                android:textSize="14dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#f4c015" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload"
+                android:id="@+id/textView67"
+                android:layout_alignTop="@+id/textView66"
+                android:layout_alignLeft="@+id/textView65"
+                android:layout_alignStart="@+id/textView65"
+                android:layout_marginBottom="10dp"
+                android:textSize="14dp"
+                android:textColor="#f31010"
+                android:clickable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ownership Proof"
+                android:id="@+id/textView68"
+                android:layout_below="@+id/textView66"
+                android:layout_alignLeft="@+id/textView66"
+                android:layout_alignStart="@+id/textView66"
+                android:textSize="14dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#f4c015" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload"
+                android:id="@+id/textView69"
+                android:layout_below="@+id/textView67"
+                android:layout_alignLeft="@+id/textView67"
+                android:layout_alignStart="@+id/textView67"
+                android:layout_marginBottom="10dp"
+                android:textSize="14dp"
+                android:textColor="#f31010"
+                android:clickable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Police Permit"
+                android:id="@+id/textView70"
+                android:layout_below="@+id/textView68"
+                android:layout_alignLeft="@+id/textView68"
+                android:layout_alignStart="@+id/textView68"
+                android:textSize="14dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#f4c015" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload"
+                android:id="@+id/textView71"
+                android:layout_below="@+id/textView69"
+                android:layout_alignLeft="@+id/textView69"
+                android:layout_alignStart="@+id/textView69"
+                android:layout_marginBottom="10dp"
+                android:textSize="14dp"
+                android:textColor="#f31010"
+                android:clickable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tinted Glass Permit"
+                android:id="@+id/textView72"
+                android:layout_below="@+id/textView70"
+                android:layout_alignLeft="@+id/textView70"
+                android:textSize="14dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#f4c015" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload"
+                android:id="@+id/textView73"
+                android:layout_alignTop="@+id/textView72"
+                android:layout_alignLeft="@+id/textView71"
+                android:layout_alignStart="@+id/textView71"
+                android:layout_marginBottom="10dp"
+                android:textSize="14dp"
+                android:textColor="#f31010"
+                android:clickable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not Uploaded"
+                android:id="@+id/textView74"
+                android:textSize="14dp"
+                android:textColor="#CD853F"
+                android:clickable="false"
+                android:layout_below="@+id/textView71"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/textView72" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not Uploaded"
+                android:id="@+id/textView75"
+                android:textSize="14dp"
+                android:textColor="#CD853F"
+                android:clickable="false"
+                android:layout_alignTop="@+id/textView71"
+                android:layout_alignLeft="@+id/textView74"
+                android:layout_alignStart="@+id/textView74" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not Uploaded"
+                android:id="@+id/textView76"
+                android:textSize="14dp"
+                android:textColor="#CD853F"
+                android:clickable="false"
+                android:layout_alignTop="@+id/textView69"
+                android:layout_alignLeft="@+id/textView75"
+                android:layout_alignStart="@+id/textView75" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not Uploaded"
+                android:id="@+id/textView77"
+                android:textSize="14dp"
+                android:textColor="#CD853F"
+                android:clickable="false"
+                android:layout_alignTop="@+id/textView67"
+                android:layout_alignLeft="@+id/textView76"
+                android:layout_alignStart="@+id/textView76" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not Uploaded"
+                android:id="@+id/textView78"
+                android:textSize="14dp"
+                android:textColor="#CD853F"
+                android:clickable="false"
+                android:layout_alignTop="@+id/textView65"
+                android:layout_alignLeft="@+id/textView77"
+                android:layout_alignStart="@+id/textView77" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not Uploaded"
+                android:id="@+id/textView79"
+                android:textSize="14dp"
+                android:textColor="#CD853F"
+                android:clickable="false"
+                android:layout_alignTop="@+id/textView62"
+                android:layout_alignLeft="@+id/textView78"
+                android:layout_alignStart="@+id/textView78" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not Uploaded"
+                android:id="@+id/textView80"
+                android:textSize="14dp"
+                android:textColor="#CD853F"
+                android:clickable="false"
+                android:layout_alignTop="@+id/textView60"
+                android:layout_alignLeft="@+id/textView79"
+                android:layout_alignStart="@+id/textView79" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not Uploaded"
+                android:id="@+id/textView81"
+                android:textSize="14dp"
+                android:textColor="#CD853F"
+                android:clickable="false"
+                android:layout_alignTop="@+id/textView59"
+                android:layout_alignLeft="@+id/textView80"
+                android:layout_alignStart="@+id/textView80" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not Uploaded"
+                android:id="@+id/textView82"
+                android:textSize="14dp"
+                android:textColor="#CD853F"
+                android:clickable="false"
+                android:layout_alignTop="@+id/textView15"
+                android:layout_alignLeft="@+id/textView81"
+                android:layout_alignStart="@+id/textView81" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView72"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:theme="@style/AppTheme3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:id="@+id/textView17"
+                android:textSize="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/spinner"
+                android:layout_marginTop="35dp"
+                android:clickable="true"
+                android:textColor="#4de32f"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

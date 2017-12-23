@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bobby.trafficsubscriber.Signin"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_centerInParent="true"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password ?"
+        android:id="@+id/button4"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:textSize="12dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/editText"
+        android:textSize="16dp"
+        android:hint="username/email/mobile no."
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_marginRight="5dp"
+        android:layout_toEndOf="@+id/imageView3"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_toRightOf="@+id/imageView3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:textSize="16dp"
+        android:hint="password"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageView4" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/imageView3"
+        android:src="@mipmap/ic_perm_identity_black_48dp"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/imageSwitcher" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/imageView4"
+        android:src="@mipmap/ic_lock_outline_black_48dp"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#74c2fe"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentRight="true"
+        android:textSize="10dp" />
+
+    <ImageSwitcher
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:id="@+id/imageSwitcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIGN UP"
+                android:id="@+id/textView50"
+                android:clickable="true"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/textView58"
+                android:layout_marginLeft="56dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIGN IN"
+                android:id="@+id/textView58"
+                android:clickable="true"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/imageView3"
+                android:layout_below="@+id/textView"
+                android:layout_marginLeft="15dp" />
+
+        </RelativeLayout>
+        </ScrollView>
+
+</RelativeLayout>

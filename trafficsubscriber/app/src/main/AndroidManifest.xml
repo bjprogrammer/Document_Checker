@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bobby.trafficsubscriber">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/nigerianpolice"
+        android:label="Document Checker"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Signin"
+            android:label="Login"
+            android:theme="@style/AppTheme3"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".Signup"
+            android:label="Signup"
+            android:theme="@style/AppTheme3"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".Forgetpassword"
+            android:label="Forget Password"
+            android:theme="@style/AppTheme2"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="Explore"
+            android:theme="@style/MyMaterialTheme"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".tickets"
+            android:label="Ticket Record"
+            android:theme="@style/AppTheme3"
+            android:screenOrientation="portrait">
+        </activity>
+
+    </application>
+
+</manifest>
